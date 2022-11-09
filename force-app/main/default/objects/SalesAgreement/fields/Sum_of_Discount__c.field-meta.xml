@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_of_Discount__c</fullName>
+    <description>This field is used a part of an equation to get the average discount of Products on the Sales Agreement. We will use this as criteria for a Sales Agreement Approval. Also creating a Total Number Of Products field as the other part of the equation.</description>
+    <externalId>false</externalId>
+    <label>Sum of Discount</label>
+    <summarizedField>SalesAgreementProduct.DiscountPercentage</summarizedField>
+    <summaryForeignKey>SalesAgreementProduct.SalesAgreementId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

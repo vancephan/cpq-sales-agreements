@@ -1,0 +1,3 @@
+<apex:page standardController="SBQQ__Quote__c" extensions="CPQB_SetSalesAgreeHeader" action="{!execute}">
+
+</apex:page>
