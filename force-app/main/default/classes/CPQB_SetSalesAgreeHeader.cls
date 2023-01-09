@@ -75,6 +75,7 @@ public with sharing class CPQB_SetSalesAgreeHeader {
                                 Name = quote.Name + ' Sales Agreement', 
                                 PricebookId = quote.SBQQ__PriceBook__c, 
                                 ScheduleCount = calcedScheduleCount, 
+                                ScheduleFrequency = quote.Schedule_Frequency__c,
                                 StartDate = quote.SBQQ__StartDate__c, 
                                 Status = 'Draft', 
                                 Quote__c = quote.Id);
